@@ -156,7 +156,11 @@ img {
               <div class="form-group">
                   <label class="control-label col-sm-2" for="pstatus">Payment Status:</label>
                   <div class="col-sm-10">
-                    
+                    <select class="form-control" name="pstatus" id="pstatus" style="color:#656565" required>
+                    	<option value="0" >Pending</option>
+                    	<option value="1" >Approve</option>
+                    	<!--<option value="RM25 - Pentas Utama" >RM25 - Pentas Utama</option>-->
+                    </select>
                       <br>
                   </div>
                   
